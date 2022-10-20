@@ -3,4 +3,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: hsl(30, 38%, 92%);
+}
+
+
+.card{
+    width: 90%;
+    max-width: 800px;
+    border: 10px solid green;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.image-section{
+    flex-basis: 200px;
+    background-image: url("/images/image-product-mobile.jpg");
+    background-size: cover;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.details-section{
+    padding: 20px;
+}
+p{
+    padding: 10px 0;
 }
