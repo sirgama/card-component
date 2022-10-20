@@ -15,7 +15,7 @@ body{
 
 .card{
     width: 90%;
-    max-width: 800px;
+    max-width: 380px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
@@ -98,3 +98,22 @@ svg{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  @media (min-width: 600px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+        max-width: 630px;
+    }
+    .image-section{
+        background-image: url("./images/image-product-desktop.jpg");
+        background-size: cover;
+        object-fit: cover;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+    .details-section{
+        flex-basis: 350px;
+    }
+
+  } 
